@@ -1,0 +1,58 @@
+2021-06-15 03:45:02.954  WARN 1075 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2021-06-15 06:22:00.826  INFO 1072 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.3
+	Build:          1233
+	Build time:     02.04.2021 17:37:35 UTC
+	Branch          YouTubeBrokeStuffAgainPartTwo
+	Commit:         7f9925c
+	Commit time:    17.02.2021 23:18:16 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.77
+
+2021-06-15 06:22:02.578  INFO 1072 --- [main] lavalink.server.Launcher                 : Starting Launcher on 39h4.l.time4vps.cloud with PID 1072 (/root/.local/share/Red-DiscordBot/data/ccop/cogs/Audio/Lavalink.jar started by root in /root/.local/share/Red-DiscordBot/data/ccop/cogs/Audio)
+2021-06-15 06:22:02.585  INFO 1072 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-06-15 06:22:04.084  WARN 1072 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-15 06:22:12.395  WARN 1072 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-06-15 06:22:12.688  INFO 1072 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-06-15 06:22:12.689  INFO 1072 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9281 ms
+2021-06-15 06:22:18.151  WARN 1072 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-06-15 06:22:24.299  INFO 1072 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-06-15 06:22:26.945  INFO 1072 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2021-06-15 06:22:26.946  INFO 1072 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2021-06-15 06:22:26.967  INFO 1072 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2021-06-15 06:22:27.090  INFO 1072 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2021-06-15 06:22:27.981  INFO 1072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-15 06:22:30.038  INFO 1072 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-06-15 06:22:30.113  INFO 1072 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-06-15 06:22:30.606  INFO 1072 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-06-15 06:22:30.645  INFO 1072 --- [main] lavalink.server.Launcher                 : Started Launcher in 36.645 seconds (JVM running for 49.434)
+2021-06-15 06:22:30.657  INFO 1072 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-06-15 06:22:32.479  INFO 1072 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 06:22:32.482  INFO 1072 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-15 06:22:32.539  INFO 1072 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 55 ms
+2021-06-15 06:22:32.657  INFO 1072 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:36574
+2021-06-15 06:22:32.971  INFO 1072 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:36574
+2021-06-15 06:22:33.060  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-822774485585231873-gladop", "timeout": 60}
+2021-06-15 06:22:40.552  INFO 1072 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:36594
+2021-06-15 06:22:40.561  INFO 1072 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:36594
+2021-06-15 06:22:40.569  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-822419904992641044-ccop", "timeout": 60}
+2021-06-15 06:28:08.406  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": null}
+2021-06-15 06:28:08.415  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:36574 -- CloseStatus[code=1000, reason=]
+2021-06-15 06:28:08.417  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-15 06:28:19.446  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": null}
+2021-06-15 06:28:19.452  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:36594 -- CloseStatus[code=1000, reason=]
+2021-06-15 06:28:19.452  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-06-15 06:31:26.705  INFO 1072 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:36696
+2021-06-15 06:31:26.710  INFO 1072 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:36696
+2021-06-15 06:31:26.713  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-822419904992641044-ccop", "timeout": 60}
+2021-06-15 06:32:13.700  INFO 1072 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:36720
+2021-06-15 06:32:13.704  INFO 1072 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:36720
+2021-06-15 06:32:13.708  INFO 1072 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-822774485585231873-gladop", "timeout": 60}

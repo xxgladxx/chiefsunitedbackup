@@ -1,0 +1,44 @@
+{
+    "Chiefs United!": {
+        "name": "Chiefs United!",
+        "tag": "YGGQR0CV",
+        "nickname": "united",
+        "clanrole": "United",
+        "emoji": "clogo",
+        "requirements": {
+            "personalbest": 0,
+            "wdwins": 0,
+            "cwr": {
+                "legendary": 30,
+                "gold": 50,
+                "silver": 50,
+                "bronze": 20
+            },
+            "bonus": "70% War Winrate",
+            "private": false
+        },
+        "waiting": [],
+        "log_channel": 760484073730473985
+    },
+    "Chiefs Rising!": {
+        "name": "Chiefs Rising!",
+        "tag": "QY0JVUYG",
+        "nickname": "rising",
+        "clanrole": "Rising",
+        "emoji": "clogo",
+        "requirements": {
+            "personalbest": 3000,
+            "wdwins": 0,
+            "cwr": {
+                "legendary": 0,
+                "gold": 0,
+                "silver": 0,
+                "bronze": 0
+            },
+            "bonus": "10% War Winrate",
+            "private": false
+        },
+        "waiting": [],
+        "log_channel": 852031892543111168
+    }
+}

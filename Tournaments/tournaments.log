@@ -1,0 +1,16 @@
+[2021-04-06 14:03:40] [INFO] red.laggron.tournaments: No tournament had to be resumed.
+[2021-06-03 08:12:45] [INFO] red.laggron.tournaments: No tournament had to be resumed.
+[2021-06-03 08:52:06] [ERROR] red.laggron.tournaments: [Guild 760377603982360597] Can't seed and upload participants (background).
+Traceback (most recent call last):
+  File "/root/.local/share/Red-DiscordBot/data/ccop/cogs/CogManager/cogs/tournaments/objects/base.py", line 2461, in _background_seed_and_upload
+    await self.add_participants()
+  File "/root/.local/share/Red-DiscordBot/data/ccop/cogs/CogManager/cogs/tournaments/objects/challonge.py", line 380, in add_participants
+    raise RuntimeError("No participant provided")
+RuntimeError: No participant provided
+[2021-06-03 09:10:18] [ERROR] red.laggron.tournaments: [Guild 760377603982360597] Can't seed and upload participants (background).
+Traceback (most recent call last):
+  File "/root/.local/share/Red-DiscordBot/data/ccop/cogs/CogManager/cogs/tournaments/objects/base.py", line 2461, in _background_seed_and_upload
+    await self.add_participants()
+  File "/root/.local/share/Red-DiscordBot/data/ccop/cogs/CogManager/cogs/tournaments/objects/challonge.py", line 380, in add_participants
+    raise RuntimeError("No participant provided")
+RuntimeError: No participant provided
